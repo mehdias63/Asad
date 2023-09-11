@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'Core';
+    src: url(../font/Core/Fontspring-coresansar15.otf);
+}
+
+@font-face {
+    font-family:'Roboto';
+    src: url(../font/Roboto/RobotoCondensed-Light.ttf);
+    src: url(../font/Roboto/RobotoCondensed-Regular.ttf) , url(../font/Roboto/RobotoCondensed-Bold.ttf);
+}
+
+

@@ -1,0 +1,67 @@
+section.HOME{
+    height: 710px;
+    width: 100%;
+    background-image: url(../img/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.HOME>ul{
+    font-family: 'Core';
+    height: 100px;
+    background-color: rgba(221, 76, 9, 0.397);
+    margin: 0;
+    text-align: center;
+}
+
+section.HOME>ul>li{
+    display: inline-block;
+    margin-top: 35px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 50px;
+}
+
+section.HOME>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+section.HOME>ul>li>a:hover{
+    box-shadow: inset 5px 5px 25px rgb(143, 134, 134);
+}
+section.HOME>div{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+    line-height: 45px;
+}
+
+section.HOME>div>h1{
+    font-size: 60px;
+    color: orangered;
+}
+
+section.HOME>div>h3{
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: lighter;
+    color:orangered;
+}
+
+section.HOME>div>button{
+    background-color: #f7be7e;
+    color: rgba(0, 0, 0, 0.685);
+    margin-top: 25px;
+padding: 15px 47px;
+    border-radius: 12px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: system-ui;
+}
+section.HOME>div>button:hover{
+    background-color: #b9bbcca6;
+    color: white;
+    box-shadow: 0px 8px 8px 0px  #000000;
+}

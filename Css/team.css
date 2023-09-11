@@ -1,0 +1,67 @@
+section.Team-Members{
+    width: 100%;
+    background-image:linear-gradient(to TOP right, black, #252525fb, black, black, #000000d0, black, #290e0e9e);
+    color: white;
+    text-align: center;
+    transition: 2s;
+}
+
+section.Team-Members>h2{
+    margin-top: 0;
+    padding-top: 60px;
+    font-family: 'Core';
+    font-size: 45px;
+    font-weight: bold;
+}
+
+section.Team-Members>hr{
+    width: 170px;
+}
+
+div.member {
+    display: flex;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+div.member>div{
+    font-family: 'Roboto';
+    padding: 25px;
+    line-height: 31px;
+    background-color: rgba(0, 0, 0, 0.151);
+    margin-bottom: 70px;
+
+}
+
+div.member>div>H3{
+    font-family: 'Core' ;
+}
+
+div.member>div>hr{
+    width: 300px ;
+    border: 1px solid rgb(90, 90, 90);
+}
+
+section.Team-Members>div>div{
+    position: relative;
+    height: 580px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+section.Team-Members>div>div>div{
+    position: absolute;
+    bottom: -85px;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+

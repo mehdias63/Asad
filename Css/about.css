@@ -1,0 +1,41 @@
+section.about{
+    background-color: #141719;
+    color: white;
+    padding: 150px;
+    padding-bottom: 0;
+    font-family: 'Core';
+}
+
+section.about>h2{
+    font-size: 45px;
+    margin-top: 0;
+    text-align:center;
+}
+section.about>img{
+    width: 100%;
+    height: 400px;
+}
+section.about>section{
+    display: flex;
+}
+
+section.about>section>div{
+    width: 100%;
+    text-align: justify;
+}
+
+section.about>section>div>h3{
+    font-size: 25px;
+}
+
+section.about>section>div>p{
+    line-height: 35px;
+}
+
+
+
+
+
+
+
+
