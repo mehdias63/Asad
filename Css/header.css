@@ -1,16 +1,20 @@
 section.HOME{
     height: 710px;
     width: 100%;
-    background-image: url(../img/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai.jpg);
+    background-image:linear-gradient(
+        rgba(90, 83, 83, 0.45), 
+        rgba(88, 65, 65, 0.45)
+      ), url(../img/exploding-burger-with-vegetables-melted-cheese-black-background-generative-ai.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
+    
 }
 
 section.HOME>ul{
     font-family: 'Core';
+    width: inherit;
     height: 100px;
-    background-color: rgba(221, 76, 9, 0.397);
     margin: 0;
     text-align: center;
 }
@@ -18,17 +22,26 @@ section.HOME>ul{
 section.HOME>ul>li{
     display: inline-block;
     margin-top: 35px;
-    padding-right: 30px;
-    padding-left: 30px;
     height: 50px;
+    line-height: 50px;
+    box-shadow: 5px 5px 15px rgb(61, 55, 55);
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 300ms linear;
 }
+
 
 section.HOME>ul>li>a{
     text-decoration: none;
-    color: white;
+    color: #fff;
+    width: inherit;
+    height: inherit;
 }
-section.HOME>ul>li>a:hover{
-    box-shadow: inset 5px 5px 25px rgb(143, 134, 134);
+section.HOME>ul>li:hover{
+    box-shadow: 5px 5px 5px rgb(236, 236, 236);
+    font-weight: bold;
+    font-size: 20px;
 }
 section.HOME>div{
     margin-top: 150px;
@@ -39,29 +52,86 @@ section.HOME>div{
 
 section.HOME>div>h1{
     font-size: 60px;
-    color: orangered;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(27, 24, 23);
 }
 
 section.HOME>div>h3{
     font-family: 'Roboto';
     font-size: 40px;
     font-weight: lighter;
-    color:orangered;
+    color:white;
+    text-shadow: 3px 3px 3px rgb(27, 24, 23);
 }
 
 section.HOME>div>button{
     background-color: #f7be7e;
     color: rgba(0, 0, 0, 0.685);
     margin-top: 25px;
-padding: 15px 47px;
-    border-radius: 12px;
+    padding: 20px 40px;
+    border-radius: 10px;
     border: none;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     font-family: system-ui;
+    transition: 1s;
 }
 section.HOME>div>button:hover{
     background-color: #b9bbcca6;
     color: white;
     box-shadow: 0px 8px 8px 0px  #000000;
+}
+@media (max-width: 600px){
+    section.HOME{
+        height: auto;
+        background-image:linear-gradient(
+            rgba(90, 83, 83, 0.45), 
+            rgba(88, 65, 65, 0.45)
+          ), url(../img/download2.jpg);
+        background-size: contain;
+        
+       
+    }
+    section.HOME>div{
+        padding: 1px;
+        margin-top: 20px;
+        
+    }
+    section.HOME>ul{
+        width: 100%;
+        height: 80px;
+        display: flex;
+     }
+    section.HOME>ul>li{
+        display: block;
+        font-size: 14px;
+        width: 80px;
+    margin-top: 25px;
+    margin-left: 2px;
+    height: 25px;
+    line-height: 25px;
+    box-shadow: 5px 5px 15px rgb(61, 55, 55);
+    text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    transition: all 300ms linear;
+    }
+    section.HOME>ul>li:hover{
+        font-size: 15px;
+    }
+    
+    section.HOME>div>h1{
+        font-size: 30px;
+        margin-top: 40px;
+        
+    }
+    section.HOME>div>h3{
+        font-size: 18px;
+    }
+    section.HOME>div>button{
+        margin-bottom: 40px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 10px;
+    }
 }

@@ -2,7 +2,10 @@
 section.first{
     width: 100%;
   
-    background-image: url(../img/wp1929481-fast-food-wallpapers.jpg);
+    background-image:linear-gradient(
+        rgba(90, 83, 83, 0.45), 
+        rgba(88, 65, 65, 0.45)
+      ), url(../img/wp1929481-fast-food-wallpapers.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,6 +21,7 @@ section.first>div>h2{
     margin-top: 0;
     font-size: 45px;
     font-family: 'Core';
+    text-shadow: 5px 5px 5px rgb(22, 18, 17);
 }
 
 section.first>div>hr{
@@ -25,19 +29,13 @@ section.first>div>hr{
     float: left;
 }
 
-section.first>div>span>i{
-    background-color: #1E73BE;
-    padding: 12px;
-    border-radius: 30px;
-    font-size: 25px;
-    margin: 15px;
-}
 
 section.first>div>span>h3{
     display: inline-block;
     font-family: 'Roboto';
     font-size: 23px;
     font-weight: lighter;
+    text-shadow: 3px 3px 3px rgb(22, 18, 17);
 }
 
 section.first>div>span>p{
@@ -47,14 +45,18 @@ section.first>div>span>p{
     margin-bottom: 40px;
     padding-left: 85px;
     line-height: 35px;
-    color: #ffffffbf;
+    color: #fff;
+    text-shadow: 3px 3px 3px rgb(22, 18, 17);
 }
 
 
 section.second {
     width: 100%;
     color: white;
-     background-image: url(../img/wp1929443-fast-food-wallpapers.jpg);
+     background-image:linear-gradient(
+        rgba(90, 83, 83, 0.45), 
+        rgba(88, 65, 65, 0.45)
+      ), url(../img/wp1929443-fast-food-wallpapers.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-attachment: fixed;
@@ -64,16 +66,13 @@ section.second>div{
     padding: 150px;
 }
 
-section.second>div>hr{
-    width: 500px;
-}
-
 section.second>div>h2{
     margin-top: 0;
     font-family:'Roboto';
     margin-bottom: 62px;
     font-size: 45px;
     font-weight: lighter;
+    text-shadow: 5px 5px 5px rgb(22, 18, 17);
 }
 
 
@@ -86,16 +85,13 @@ section.second>div>section>div{
 margin: 10px;
 }
 
-section.second>div>section>div>img{
-    padding: 25px;
-}
-
 section.second>div>section>div>p{
     font-family: 'Roboto' ;
     width: 55%;
     padding-left:15px;
     line-height: 30px;
     color: #ffffff;
+    text-shadow: 3px 3px 3px rgb(22, 18, 17);
 }
 
 
@@ -104,47 +100,63 @@ section.second>div>section>div>ul{
     line-height: 45px;
     color: #ffffff;
     list-style: none;
+    text-shadow: 3px 3px 3px rgb(22, 18, 17);
 }
-
-section.second>div>section>div>ul>li>i{
-    margin: 10px;
-}
-
-
-section.second>div>div>span{
-    margin: 85px;
-    display: block;
-    background: #00000054;
-    width: 52%;
-    padding: 35px;
-}
-
-section.second>div>span>i{
-    color: #4E5355;
-    margin-left: 36px;
-    font-size: 45px;
-    position: relative;
-    top: 15px;
-}
-
-
-section.second>div>span>button{
-padding: 20px 40px;
-border-radius: 15px;
-background-color: #1E73BE;
-border: none;
-}
-
-
-
-section.second>div>span{
-    margin: 30px;
-    display: block;
-    background: #00000054;
-    width: 57%;
-    padding: 35px;
-    }
     
 
-
+    @media (max-width: 600px){
+        section.first{
+            background-image:linear-gradient(
+                rgba(90, 83, 83, 0.45), 
+                rgba(88, 65, 65, 0.45)
+              ), url(../img/potata.jpg);
+            background-size:cover;
+        }
+        section.first>div{
+            padding: 15px;
+        }
+        section.first>div>h2{
+            font-size: 25px;
+        }
+        section.first>div>span>h3{
+            font-size: 17px;
+        }
+        section.first>div>span>p{
+            width: 80%;
+            margin-top: 3px;
+            margin-bottom: 10px;
+            padding-left: 15px;
+            line-height: 15px;
+            font-size: 11px;
+        }
+        section.first>div>hr{
+            width: 300px;
+        }
+        section.second {
+            background-image:linear-gradient(
+                rgba(90, 83, 83, 0.45), 
+                rgba(88, 65, 65, 0.45)
+              ), url(../img/1694768949040.jpg);
+        }
+        img{
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+        }
+        section.second>div{
+            padding:0;
+        }
+        section.second>div>h2{
+            margin-bottom: 5px;
+            font-size: 25px;
+            
+        }
+        section.second>div>hr{
+            width: 300px;
+        }
+        section.second>div>section>div>p{
+            padding-left: 0;
+            margin-left: 35px;
+        }
+    }
 

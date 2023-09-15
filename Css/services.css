@@ -18,24 +18,12 @@ section.services>hr{
 section.services>h4{
     font-family:'Core';
     font-size: 25px;
+    font-weight: bold;
     margin: 20px;
 }
 
 section.services>div{
     display: flex;
-}
-section.services>i{
-    color: white;
-
-}
-
-section.services>div>div>i{
-    font-size: 25px;
-    border: 1px solid #ffffff6b;
-    padding: 18px;
-    border-radius: 38px;
-    color: white;
-    transition: 1s;
 }
 
 
@@ -48,6 +36,7 @@ section.services>div>div>span>h4{
     font-size: 20px;
     color: whitesmoke;
     margin: 15px;
+    font-weight: bold;
 }
 
 section.services>div>div>span>p{
@@ -56,77 +45,63 @@ section.services>div>div>span>p{
 }
 
 section.services>div>div{
-    margin: 12px;
+    margin: 18px;
     padding: 15px;
     border-radius: 5px;
+    transition: all 300ms linear;
 }
 
 section.services>div>div.skyblue-cart{
     background-color: #1EBEB8;
 }
-section.services>div>div.item:hover{
-    box-shadow: inset 5px 5px 25px black;
-}
+
 img{
     width: 100%;
     height: 250px;
-}
-
-section.services>div>div.skyblue-cart:hover>i{
-color: gray;
-border: 1px solid white;
-transform: scale(1.1);
 }
 
 section.services>div>div.green-cart{
     background-color: rgb(30, 190, 104);
 }
 
-section.services>div>div.green-cart:hover>i{
-    color: rgb(0, 255, 106);
-    transform: scale(1.1);
-    border: 1px solid white;
-}
-
 section.services>div>div.blue-screen{
     background-color: #1E73BE;
-}
-
-section.services>div>div.blue-screen:hover>i{
-    color: rgb(55, 192, 216);
-    transform: scale(1.1);
-    border: 1px solid white;
 }
 
 section.services>div>div.Purple-cart{
     background-color: rgb(122, 63, 157);
 }
 
-section.services>div>div.Purple-cart:hover>i{
-    color: rgb(255, 230, 0);
-    transform: scale(1.1);
-    border: 1px solid white;
-}
-
 section.services>div>div.pink-cart{
     background-color: rgb(156, 64, 123);
-}
-
-section.services>div>div.pink-cart:hover>i{
-    color: rgb(0, 0, 0);
-    transform: scale(1.1);
-    border: 1px solid white;
 }
 
 section.services>div>div.orange-cart{
     background-color: rgb(235, 122, 36);
 }
 
-section.services>div>div.orange-cart:hover>i{
-    color: rgb(0, 77, 54);
+section.services>div>div:hover{
     transform: scale(1.1);
     border: 1px solid white;
+    box-shadow: 5px 5px 5px gray;
 }
-
+@media (max-width: 600px){
+    section.services{
+        padding: 45px;
+    }
+    img{
+        width: 100%;
+        height: 200px;
+    }
+    section.services>div{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    section.services>h2{
+        font-size: 35px;
+    }
+    
+}
 
 
