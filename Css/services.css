@@ -33,15 +33,17 @@ section.services>div>div>span{
 
 section.services>div>div>span>h4{
     font-family:'Core';    
-    font-size: 20px;
-    color: whitesmoke;
+    font-size: 22px;
+    color: black;
     margin: 15px;
     font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(150, 147, 147);
 }
 
 section.services>div>div>span>p{
     line-height: 25px;
-    color: gainsboro;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(54, 52, 52);
 }
 
 section.services>div>div{

@@ -39,7 +39,7 @@ section.HOME>ul>li>a{
     height: inherit;
 }
 section.HOME>ul>li:hover{
-    box-shadow: 5px 5px 5px rgb(236, 236, 236);
+    box-shadow: 6px 6px 6px rgb(116, 105, 105);
     font-weight: bold;
     font-size: 20px;
 }
