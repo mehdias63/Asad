@@ -14,7 +14,7 @@ section.first{
 }
 
 section.first>div{
-padding: 150px;
+padding: 50px;
 }
 
 section.first>div>h2{
@@ -63,7 +63,7 @@ section.second {
 }
 
 section.second>div{
-    padding: 150px;
+    padding: 50px;
 }
 
 section.second>div>h2{
@@ -73,6 +73,11 @@ section.second>div>h2{
     font-size: 45px;
     font-weight: lighter;
     text-shadow: 5px 5px 5px rgb(22, 18, 17);
+}
+img{
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
 }
 
 
@@ -102,7 +107,75 @@ section.second>div>section>div>ul{
     list-style: none;
     text-shadow: 3px 3px 3px rgb(22, 18, 17);
 }
+@media (max-width: 1100px){
+    section.first>div{
+        padding: 50px;
+    }
+    section.first>div>h2{
+        font-size: 35px;
+    }
+    section.first>div>span>h3{
+        font-size: 25px;
+    }
+    section.first>div>hr{
+        width: 420px;
+    }
+    section.second>div{
+        padding:50px;
+    }
+    section.second>div>h2{
+        margin-bottom: 5px;
+        font-size: 35px;
+        
+    }
+    section.second>div>hr{
+        width: 0;
+    }
+    img{
+        width: 220px;
+        height: 220px;
+        margin-top: 30px;
+    }
+    section.second>div>section>div>p{
+        padding-left: 0;
+        margin-left: 35px;
+    }
+} 
+   @media (max-width: 800px){
+    section.first>div{
+        padding: 20px;
+    }
+    section.first>div>h2{
+        font-size: 30px;
+    }
+    section.first>div>span>h3{
+        font-size: 20px;
+    }
+    section.first>div>hr{
+        width: 380px;
+    }
+    section.second>div{
+        padding:20px;
+    }
+    section.second>div>h2{
+        margin-bottom: 5px;
+        font-size: 30px;
+        
+    }
+    section.second>div>hr{
+        width:0;
+    }
+    img{
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+    section.second>div>section>div>p{
+        padding-left: 0;
+        margin-left: 35px;
+    }
     
+}
 
     @media (max-width: 600px){
         section.first{
@@ -144,7 +217,7 @@ section.second>div>section>div>ul{
             margin-top: 20px;
         }
         section.second>div{
-            padding:0;
+            padding:15px;
         }
         section.second>div>h2{
             margin-bottom: 5px;
@@ -152,7 +225,7 @@ section.second>div>section>div>ul{
             
         }
         section.second>div>hr{
-            width: 300px;
+            width: 0;
         }
         section.second>div>section>div>p{
             padding-left: 0;

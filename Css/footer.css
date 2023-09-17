@@ -8,6 +8,16 @@ section.footer{
     font-size: 18px;
     text-align: center;
 }
+@media (max-width: 1100px){
+    .data-cpyright{
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px){
+    .data-cpyright{
+        font-size: 14px;
+    }
+}
 @media (max-width: 600px){
     .data-cpyright{
         font-size: 12px;

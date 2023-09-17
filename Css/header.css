@@ -133,6 +133,7 @@ section.HOME>div>button:hover{
     section.HOME>div>button{
         padding: 10px 20px;
         margin-bottom: 40px;
+        font-size: 13px;
     }
 }
 @media (max-width: 600px){
