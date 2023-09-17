@@ -60,12 +60,42 @@ section.intro>img{
     animation-direction: alternate;
     animation-fill-mode: backwards;
     }
+    @media (max-width: 1200px){
+        section.intro{
+            padding: 25px;
+        }
+        section.intro>h2.text-Extreme{
+            font-size: 90px;
+        }  
+    }
+    @media (max-width: 800px){
+        section.intro{
+            padding: 25px;
+        }
+        section.intro>h2.text-Extreme{
+            font-size: 55px;
+        }
+        section.intro>h2{
+            font-size: 35px;
+        }
+        section.intro>div{
+            padding: 5px;
+            color: white;
+            line-height: 25px;
+            column-count: 3;
+            font-size: 15px;
+            column-gap: 18px;
+        }
+        section.intro>img{
+            height: 400px;
+        }
+    }
     @media (max-width: 600px){
         section.intro{
             padding: 10px;
         }
         section.intro>h2.text-Extreme{
-            font-size: 60px;
+            font-size: 45px;
         }
         section.intro>h2{
             font-size: 25px;

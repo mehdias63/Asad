@@ -81,6 +81,60 @@ section.HOME>div>button:hover{
     color: white;
     box-shadow: 0px 8px 8px 0px  #000000;
 }
+@media (max-width: 1100px){
+    section.HOME>div>h1{
+        font-size: 40px;
+    }
+    section.HOME>div>h3{
+        font-size: 30px;
+    }
+    section.HOME>div>button{
+        padding: 15px 25px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 800px){
+    section.HOME{
+        height: auto;
+        background-size: contain;
+    }
+    section.HOME>div{
+        margin-top: 10px;
+    }
+    section.HOME>ul{
+        width: 100%;
+        height: 80px;
+        display: flex;
+     }
+    section.HOME>ul>li{
+        display: block;
+        font-size: 15px;
+        width: 80px;
+        margin-top: 25px;
+        margin-left: 10px;
+        height: 25px;
+        line-height: 25px;
+        box-shadow: 5px 5px 15px rgb(61, 55, 55);
+        text-align: center;
+        padding-left: 2px;
+        padding-right: 2px;
+        transition: all 300ms linear;
+    }
+    section.HOME>ul>li:hover{
+        font-size: 16px;
+    }
+    section.HOME>div>h1{
+        font-size: 30px;
+        margin-top: 0;
+    }
+    section.HOME>div>h3{
+        font-size: 22px;
+    }
+    section.HOME>div>button{
+        padding: 10px 20px;
+        margin-bottom: 40px;
+    }
+}
 @media (max-width: 600px){
     section.HOME{
         height: auto;
@@ -121,12 +175,12 @@ section.HOME>div>button:hover{
     }
     
     section.HOME>div>h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 40px;
         
     }
     section.HOME>div>h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     section.HOME>div>button{
         margin-bottom: 40px;
