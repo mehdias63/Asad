@@ -60,6 +60,7 @@ section.contact>div>form>button{
     color: white;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
     transition: 1s;
 }
 

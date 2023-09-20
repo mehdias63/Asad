@@ -31,8 +31,10 @@ div.member>div{
     font-family: 'Roboto';
     padding: 15px;
     line-height: 31px;
-    
-
+}
+div.member>div>img{
+    width: 280px;
+    height: 200px;
 }
 
 div.member>div>H3{
@@ -85,6 +87,10 @@ div.member>div>hr{
     }
     section.Team-Members>h2{
         font-size: 30px;
+    }
+    div.member>div>img{
+        width: 280px;
+        height: 200px;
     }
 }
 
