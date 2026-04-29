@@ -1,114 +1,105 @@
-section.contact{
-    width: 100%;
-    height: 650px;
-    background-image: url(../img/wood.webp);
-    background-size:cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    text-align: center;
+section.contact {
+	width: 100%;
+	height: 650px;
+	background-image: url(../img/wood.webp);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
 }
 
-section.contact>div>h2{
-    font-family: 'Core';
-    margin-top: 0;
-    padding-top: 50px;
-    color: white;
-    font-size: 46px;
+section.contact > div > h2 {
+	font-family: 'Core';
+	margin-top: 0;
+	padding-top: 50px;
+	color: white;
+	font-size: 46px;
 }
 
-section.contact>div>form>input{
-    margin: 15px;
-    width: 400px;
-    height: 42px;
-    border-radius: 8px;
-    color: black;
-    background-color: #fff;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-    outline: none;
-    box-shadow: 0px 2px 2px 0px rgb(207, 201, 201);
-    
+section.contact > div > form > input {
+	margin: 15px;
+	width: 400px;
+	height: 42px;
+	border-radius: 8px;
+	color: black;
+	background-color: #fff;
+	font-family:
+		'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	outline: none;
+	box-shadow: 0px 2px 2px 0px rgb(207, 201, 201);
+	padding: 5px;
 }
-section.contact>div>form>input::placeholder,section.contact>div>form>textarea::placeholder{
-    color: black;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-
-
-section.contact>div>form>textarea{
-    resize: none;
-    width: 850px;
-    height: 140px;
-    border-radius: 10px;
-    margin: 10px;
-    color: black;
-    background-color: #fff;
-    outline: none;
-    box-shadow: 0px 2px 2px 0px rgb(207, 201, 201);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+section.contact > div > form > input::placeholder,
+section.contact > div > form > textarea::placeholder {
+	color: rgb(100, 95, 95);
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
 }
 
-section.contact>div>form>button{
-    display: block;
-    margin: 10px auto;
-    padding: 20px 40px;
-    font-size: 16px;
-    background-color: #1E73BE;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-    margin-top: 30px;
+section.contact > div > form > textarea {
+	resize: none;
+	width: 850px;
+	height: 140px;
+	border-radius: 10px;
+	margin: 10px;
+	color: black;
+	background-color: #fff;
+	outline: none;
+	box-shadow: 0px 2px 2px 0px rgb(207, 201, 201);
+	font-family:
+		'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-section.contact>div>form>button:hover{
-    color: #1E73BE;
-    background-color: rgba(255, 255, 255, 0.959);
-box-shadow: 0px 3px 8px 0px rgb(76, 77, 88);
-}
-@media (max-width: 880px){
-    section.contact>div>h2{
-        font-size: 35px;
-    } 
-    section.contact>div>form>textarea{
-        width: 400px;
-        height: 100px;
-    } 
-    section.contact>div>form>button{
-        padding: 10px 30px;
-        font-size: 12px;
-    }
-}
-@media (max-width: 600px){
-    section.contact{
-        height: 720px;
-    }
-    section.contact>div>h2{
-        font-size: 30px;
-    }
-    section.contact>div>form>textarea{
-        width: 400px;
-        height: 100px;
-    }
-    section.contact>div>form>button{
-        padding: 10px 30px;
-        font-size: 13px;
-    }
-    section.contact>div>form>input::placeholder,section.contact>div>form>textarea::placeholder{
-        font-size: 12px;
-    }
+section.contact > div > form > button {
+	display: block;
+	margin: 10px auto;
+	padding: 20px 40px;
+	font-size: 16px;
+	background-color: #1e73be;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+	margin-top: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+section.contact > div > form > button:hover {
+	color: #1e73be;
+	background-color: rgba(255, 255, 255, 0.959);
+	box-shadow: 0px 3px 8px 0px rgb(76, 77, 88);
+}
+@media (max-width: 880px) {
+	section.contact > div > h2 {
+		font-size: 35px;
+	}
+	section.contact > div > form > textarea {
+		width: 400px;
+		height: 100px;
+	}
+	section.contact > div > form > button {
+		padding: 10px 30px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 600px) {
+	section.contact {
+		height: 720px;
+	}
+	section.contact > div > h2 {
+		font-size: 30px;
+	}
+	section.contact > div > form > textarea {
+		width: 400px;
+		height: 100px;
+	}
+	section.contact > div > form > button {
+		padding: 10px 30px;
+		font-size: 13px;
+	}
+	section.contact > div > form > input::placeholder,
+	section.contact > div > form > textarea::placeholder {
+		font-size: 12px;
+	}
+}
